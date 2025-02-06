@@ -1,11 +1,30 @@
+body{
+    font-family: "Belanosima", serif;
+}
+
 #github{
     fill:#F39E8B;
+}
+
+svg:hover{
+    fill:#D66D5C; 
 }
 
 #email{
     fill:#EAB7C3;
 }
 
+svg:hover{
+    fill:#FF85A5
+}
+
 #linkdin{
     fill:#17BFEC;
 }
+
+svg:hover{
+    fill:#2A8AA0
+}
+
+
+
