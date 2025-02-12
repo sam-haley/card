@@ -1,30 +1,132 @@
-body{
-    font-family: "Belanosima", serif;
-}
 
-#github{
+/* font family and styling */
+body{
+    font-family: "Lilita One", serif;
+}
+#text-container{
+    color: "3F5DAB";
+    margin: 10px;}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #3F5DAB;
+    margin: 15px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #3F5DAB;
+    margin: 15px;
+} 
+
+.container {
+            height: 100%;
+            display: grid;
+            grid-gap: 3px;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 40px auto 40px;
+            grid-template-areas: 
+                ". l l l . c c c c . . ."
+                ". l l l . c c c c . . ."
+                ". l l l . . . . . . . .";
+        }
+.lava-container {
+            grid-area: l;
+        }
+        
+.card-container {
+    background-color: #FECD93;
+    width: 650px;
+    height: 350px;
+    margin: auto;
+            grid-area: c;
+        }
+
+/* svg styling */
+
+/* all of my svg styling  */
+.icon-container svg{
+    width: 60px;
+    margin: 10px;}
+
+    #linkedin{
+        height: 50px;
+        transform-origin: center;
+        padding-bottom: 5px;
+    }
+
+/* github styling */
+    #github{
     fill:#F39E8B;
 }
-
-svg:hover{
-    fill:#D66D5C; 
+#github :hover{
+    fill:#D66D5C;
 }
-
+/* email styling */
 #email{
     fill:#EAB7C3;
 }
-
-svg:hover{
+#email :hover{
     fill:#FF85A5
 }
-
-#linkdin{
+/* linked in styling */
+#linkedin{
     fill:#17BFEC;
 }
-
-svg:hover{
+#linkedin:hover{
     fill:#2A8AA0
 }
-
-
-
+        
+         /* lava lamp area */
+           .st0 {
+             fill: none;
+             stroke: #f6c599;
+           }
+     
+           .st0, .st1, .st2, .st3 {
+             stroke-miterlimit: 10;
+           }
+     
+           .st1 {
+             fill: #eab7c3;
+             stroke: #eab7c3;
+           }
+     
+           .st2 {
+             fill: #f39e8b;
+             stroke: #f39e8b;
+           }
+           .st4 {
+             fill: #ffc9d5;
+           }
+     
+           .st4, .st5, .st6 {
+             stroke: #eab9c5;
+           }
+     
+           .st5 {
+             fill: #ffb8a8;
+           }
+     
+           .st6 {
+             fill: #ffdab9;
+           }
+     
+           .st7 {
+             fill: #17bfec;
+           }
+     
+           .st8 {
+             fill: #f6c599;
+           }
+     
+           .st9 {
+             fill: #d84598;
+           }
+     
+           .st3 {
+             fill: #e2e7e7;
+             stroke: #e2e7e7;
+           }
