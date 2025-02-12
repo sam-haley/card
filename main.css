@@ -2,19 +2,22 @@
 /* font family and styling */
 body{
     font-family: "Lilita One", serif;
+    background-color: #8AAEBA;
+    background-image: url("images/blob_background.png");
+    background-size: cover;
 }
 #text-container{
     color: "3F5DAB";
     margin: 10px;}
 h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     text-transform: capitalize;
     color: #3F5DAB;
     margin: 15px;
 }
 h2{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
     color: #3F5DAB;
@@ -26,22 +29,25 @@ h2{
             display: grid;
             grid-gap: 3px;
             grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 40px auto 40px;
+            grid-template-rows:auto;
             grid-template-areas: 
-                ". l l l . c c c c . . ."
-                ". l l l . c c c c . . ."
+                ". l l l . . c c c c . ."
+                ". l l l . . c c c c . ."
                 ". l l l . . . . . . . .";
         }
 .lava-container {
             grid-area: l;
+            margin-top: 140px;
+            width: 70%;
         }
         
 .card-container {
     background-color: #FECD93;
-    width: 650px;
-    height: 350px;
+    width: 450px;
+    height: 200px;
     margin: auto;
-            grid-area: c;
+    margin-top:200px;
+    grid-area: c;
         }
 
 /* svg styling */
@@ -80,6 +86,27 @@ h2{
 }
         
          /* lava lamp area */
+
+         #pink-highlight{
+            fill: #eab7c3;
+            animation: pinkAnimate 2s infinite ease-in-out
+         }
+
+         @keyframes pinkAnimate {
+            0%{
+                fill: #eab7c3;
+            }
+            100%{
+                fill: #a212ce;
+            }
+         }
+
+         #pink-shadow{
+
+         }
+
+         #yello
+
            .st0 {
              fill: none;
              stroke: #f6c599;
@@ -98,6 +125,7 @@ h2{
              fill: #f39e8b;
              stroke: #f39e8b;
            }
+     
            .st4 {
              fill: #ffc9d5;
            }
@@ -130,3 +158,4 @@ h2{
              fill: #e2e7e7;
              stroke: #e2e7e7;
            }
+        
