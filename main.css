@@ -46,10 +46,9 @@ h2{
     width: 450px;
     height: 200px;
     margin: auto;
-    margin-top:200px;
+    margin-top:160px;
     grid-area: c;
         }
-
 /* svg styling */
 
 /* all of my svg styling  */
@@ -89,7 +88,7 @@ h2{
 /* pinkhighlight animation */
          #pink-highlight{
             fill: #eab7c3;
-            animation: pinkAnimate; 2s infinite ease-in-out
+            animation: pinkAnimate 2s infinite ease-in-out
          }
 
          @keyframes pinkAnimate {
@@ -107,7 +106,7 @@ h2{
 /* yellowhighlight animations */
         #yellow-highlight{
             fill: #FFDAB9;
-            animation: yellowAnimate; 2s infinite ease-in-out;
+            animation: yellowAnimate 2s infinite ease-in-out;
          }
     
          @keyframes yellowAnimate {
@@ -122,60 +121,71 @@ h2{
  #yellow-shadow{
     fill: #F6C599;
  }
-      
-         /* }
+ /* orangehighlight animations */
+ #orange-highlight{
+  fill: #FFB8A8;
+  animation: orangeAnimate 2s infinite ease-in-out;
+}
 
-         
+@keyframes orangeAnimate {
+   0%{
+       fill: #FFB8A8;
+   }
+       100%{
+   fill: #fe8165;
+   }
+}
 
-           .st0 {
-             fill: none;
-             stroke: #f6c599;
-           }
-     
-           .st0, .st1, .st2, .st3 {
-             stroke-miterlimit: 10;
-           }
-     
-           .st1 {
-             fill: #eab7c3;
-             stroke: #eab7c3;
-           }
-     
-           .st2 {
-             fill: #f39e8b;
-             stroke: #f39e8b;
-           }
-     
-           .st4 {
-             fill: #ffc9d5;
-           }
-     
-           .st4, .st5, .st6 {
-             stroke: #eab9c5;
-           }
-     
-           .st5 {
-             fill: #ffb8a8;
-           }
-     
-           .st6 {
-             fill: #ffdab9;
-           }
-     
-           .st7 {
-             fill: #17bfec;
-           }
-     
-           .st8 {
-             fill: #f6c599;
-           }
-     
-           .st9 {
-             fill: #d84598;
-           }
-     
-           .st3 {
-             fill: #e2e7e7;
-             stroke: #e2e7e7;
-           } */
-        
+#orange-shadow{
+fill: #F39E8B;
+.st0 {
+  fill: none;
+  stroke: #f6c599;
+}
+
+.st0, .st1, .st2, .st3 {
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #eab7c3;
+  stroke: #eab7c3;
+}
+
+.st2 {
+  fill: #f39e8b;
+  stroke: #f39e8b;
+}
+
+.st4 {
+  fill: #ffc9d5;
+}
+
+.st4, .st5, .st6 {
+  stroke: #eab9c5;
+}
+
+.st5 {
+  fill: #ffb8a8;
+}
+
+.st6 {
+  fill: #ffdab9;
+}
+
+.st7 {
+  fill: #17bfec;
+}
+
+.st8 {
+  fill: #f6c599;
+}
+
+.st9 {
+  fill: #d84598;
+}
+
+.st3 {
+  fill: #e2e7e7;
+  stroke: #e2e7e7;
+}
