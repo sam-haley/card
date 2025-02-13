@@ -1,191 +1,173 @@
-
 /* font family and styling */
-body{
-    font-family: "Lilita One", serif;
-    background-color: #8AAEBA;
-    background-image: url("images/blob_background.png");
-    background-size: cover;
+body {
+  font-family: "Lilita One", serif;
+  background-color: #8aaeba;
+  background-image: url("images/blob_background.png");
+  background-size: cover;
 }
-#text-container{
-    color: #3F5DAB;
-    margin: 10px;}
-h1{
-    font-size: 30px;
-    font-weight: 400;
-    text-transform: capitalize;
-    color: #3F5DAB;
-    margin: 15px;
+#text-container {
+  color: #3f5dab;
+  margin: 10px;
 }
-h2{
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: capitalize;
-    color: #3F5DAB;
-    margin: 15px;
-} 
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #3f5dab;
+  margin: 15px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #3f5dab;
+  margin: 15px;
+}
 
 .container {
-            height: 100%;
-            display: grid;
-            grid-gap: 3px;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows:auto;
-            grid-template-areas: 
-                ". l l l . . c c c c . ."
-                ". l l l . . c c c c . ."
-                ". l l l . . . . . . . .";
-        }
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". l l l . . c c c c . ."
+    ". l l l . . c c c c . ."
+    ". l l l . . . . . . . .";
+}
 .lava-container {
-            grid-area: l;
-            margin-top: 140px;
-            width: 70%;
-        }
-        
+  grid-area: l;
+  margin-top: 140px;
+  width: 70%;
+}
+
 .card-container {
-    background-color: #FECD93;
-    width: 450px;
-    height: 200px;
-    margin: auto;
-    margin-top:160px;
-    grid-area: c;
-        }
+  background-color: #fecd93;
+  width: 475px;
+  height: 225px;
+  margin: left 150px;
+  margin-top: 160px;
+  grid-area: c;
+}
 /* svg styling */
 
 /* all of my svg styling  */
-.icon-container svg{
-    width: 60px;
-    margin: 10px;}
+.icon-container svg {
+  width: 60px;
+  margin: 10px;
+}
 
-    #linkedin{
-        height: 50px;
-        transform-origin: center;
-        padding-bottom: 5px;
-    }
+#linkedin {
+  height: 50px;
+  transform-origin: center;
+  padding-bottom: 5px;
+}
 
 /* github styling */
-    #github{
-    fill:#F39E8B;
+#github {
+  fill: #f39e8b;
 }
-#github :hover{
-    fill:#D66D5C;
+#github :hover {
+  fill: #d66d5c;
 }
 /* email styling */
-#email{
-    fill:#EAB7C3;
+#email {
+  fill: #eab7c3;
 }
-#email :hover{
-    fill:#FF85A5
+#email :hover {
+  fill: #ff85a5;
 }
 /* linked in styling */
-#linkedin{
-    fill:#17BFEC;
+#linkedin {
+  fill: #17bfec;
 }
-#linkedin:hover{
-    fill:#2A8AA0
+#linkedin:hover {
+  fill: #2a8aa0;
 }
-        
-         /* lava lamp area */
+
+/* lava lamp area */
 /* pinkhighlight animation */
-         #pink-highlight{
-            fill: #eab7c3;
-            animation: pinkAnimate 2s infinite ease-in-out
-         }
+#pink-highlight {
+  fill: #f8d3dc;
+  animation: pinkAnimate 5s infinite ease-in-out;
+}
 
-         @keyframes pinkAnimate {
-            0%{
-                fill: #eab7c3;
-            }
-            100%{
-                fill: #e88ba1;
-            }
-         }
+@keyframes pinkAnimate {
+  0% {
+    fill: #f8d3dc;
+  }
+  100% {
+    fill: #e88ba1;
+  }
+}
 
-         #pink-shadow{
-            fill: #EAB9C5;
-         }
+#pink-shadow {
+  fill: #eab9c5;
+}
 /* yellowhighlight animations */
-        #yellow-highlight{
-            fill: #FFDAB9;
-            animation: yellowAnimate 2s infinite ease-in-out;
-         }
-    
-         @keyframes yellowAnimate {
-             0%{
-                 fill: #ffdab9;
-             }
-                 100%{
-             fill: #f3b680;
-             }
- }
+#yellow-highlight {
+  fill: #ffdab9;
+  animation: yellowAnimate 5s infinite ease-in-out;
+}
 
- #yellow-shadow{
-    fill: #F6C599;
- }
- /* orangehighlight animations */
- #orange-highlight{
-  fill: #FFB8A8;
-  animation: orangeAnimate 2s infinite ease-in-out;
+@keyframes yellowAnimate {
+  0% {
+    fill: #ffdab9;
+  }
+  100% {
+    fill: #f3b680;
+  }
+}
+
+#yellow-shadow {
+  fill: #f6c599;
+}
+/* orangehighlight animations */
+#orange-highlight {
+  fill: #ffb8a8;
+  animation: orangeAnimate 5s infinite ease-in-out;
 }
 
 @keyframes orangeAnimate {
-   0%{
-       fill: #FFB8A8;
-   }
-       100%{
-   fill: #fe8165;
-   }
+  0% {
+    fill: #ffb8a8;
+  }
+  100% {
+    fill: #fe8165;
+  }
 }
 
-#orange-shadow{
-fill: #F39E8B;
-.st0 {
-  fill: none;
-  stroke: #f6c599;
-}
-
-.st0, .st1, .st2, .st3 {
-  stroke-miterlimit: 10;
-}
-
-.st1 {
-  fill: #eab7c3;
-  stroke: #eab7c3;
-}
-
-.st2 {
+#orange-shadow {
   fill: #f39e8b;
-  stroke: #f39e8b;
 }
 
-.st4 {
-  fill: #ffc9d5;
+.lava-grey {
+  fill: #e2e7e7;
 }
 
-.st4, .st5, .st6 {
-  stroke: #eab9c5;
-}
 
-.st5 {
-  fill: #ffb8a8;
-}
-
-.st6 {
-  fill: #ffdab9;
-}
-
-.st7 {
+.haley-blue {
   fill: #17bfec;
 }
 
-.st8 {
-  fill: #f6c599;
-}
-
-.st9 {
+.sam-pink {
   fill: #d84598;
 }
 
-.st3 {
-  fill: #e2e7e7;
-  stroke: #e2e7e7;
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      ". . l l l l . . "
+      ". . l l l l . . "
+      ". . c c c c . . ";
+  }
+  .lava-container {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .card-container {
+    width: 105%;
+    margin-top: 10px;
+  }
+  
 }
