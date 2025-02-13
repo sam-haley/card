@@ -27,7 +27,6 @@ h2 {
 .container {
   height: 100%;
   display: grid;
-  grid-gap: 3px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
@@ -166,8 +165,16 @@ h2 {
     width: 100%;
   }
   .card-container {
-    width: 105%;
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    top: 0;
   }
+}
+.icon-container {
+  width: 75%;
+  margin-top: 10px;
+  position: relative;
+}
   
 }
