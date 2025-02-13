@@ -7,7 +7,7 @@ body{
     background-size: cover;
 }
 #text-container{
-    color: "3F5DAB";
+    color: #3F5DAB;
     margin: 10px;}
 h1{
     font-size: 30px;
@@ -86,10 +86,10 @@ h2{
 }
         
          /* lava lamp area */
-
+/* pinkhighlight animation */
          #pink-highlight{
             fill: #eab7c3;
-            animation: pinkAnimate 2s infinite ease-in-out
+            animation: pinkAnimate; 2s infinite ease-in-out
          }
 
          @keyframes pinkAnimate {
@@ -97,15 +97,35 @@ h2{
                 fill: #eab7c3;
             }
             100%{
-                fill: #a212ce;
+                fill: #e88ba1;
             }
          }
 
          #pink-shadow{
-
+            fill: #EAB9C5;
          }
+/* yellowhighlight animations */
+        #yellow-highlight{
+            fill: #FFDAB9;
+            animation: yellowAnimate; 2s infinite ease-in-out;
+         }
+    
+         @keyframes yellowAnimate {
+             0%{
+                 fill: #ffdab9;
+             }
+                 100%{
+             fill: #f3b680;
+             }
+ }
 
-         #yello
+ #yellow-shadow{
+    fill: #F6C599;
+ }
+      
+         /* }
+
+         
 
            .st0 {
              fill: none;
@@ -157,5 +177,5 @@ h2{
            .st3 {
              fill: #e2e7e7;
              stroke: #e2e7e7;
-           }
+           } */
         
