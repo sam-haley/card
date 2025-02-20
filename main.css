@@ -153,6 +153,7 @@ h2 {
   fill: #d84598;
 }
 
+/* setting for mobile layout */
 @media screen and (max-width: 768px) {
   .container {
     grid-template-areas:
@@ -170,11 +171,11 @@ h2 {
     position: relative;
     top: 0;
   }
-}
 .icon-container {
-  width: 75%;
+  width: 25%;
   margin-top: 10px;
   position: relative;
-}
-  
+  top: 0;
+  left: 0;  
+} 
 }
