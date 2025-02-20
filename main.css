@@ -63,12 +63,9 @@ h2 {
 }
 
 /* github styling */
-.github {
-  fill: #f18a72;
-}
 
 #github {
-  fill: #f39e8b;
+  fill: #f18a72
 }
 #github :hover {
   fill: #d66d5c;
