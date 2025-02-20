@@ -63,6 +63,10 @@ h2 {
 }
 
 /* github styling */
+.github {
+  fill: #f18a72;
+}
+
 #github {
   fill: #f39e8b;
 }
@@ -71,7 +75,7 @@ h2 {
 }
 /* email styling */
 #email {
-  fill: #eab7c3;
+  fill: #be506a;
 }
 #email :hover {
   fill: #ff85a5;
@@ -156,10 +160,13 @@ h2 {
 /* setting for mobile layout */
 @media screen and (max-width: 768px) {
   .container {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
       ". . l l l l . . "
       ". . l l l l . . "
-      ". . c c c c . . ";
+      ". c c c c c c . "
+      ". c c c c c c . ";
   }
   .lava-container {
     margin-top: 100px;
@@ -171,11 +178,11 @@ h2 {
     position: relative;
     top: 0;
   }
-.icon-container {
+  .icon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   width: 25%;
   margin-top: 10px;
   position: relative;
-  top: 0;
-  left: 0;  
-} 
+  }
 }
