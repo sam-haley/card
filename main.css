@@ -1,3 +1,12 @@
+/* Accesability Toggle TurnOff Motion */
+@media (prefers-reduced-motion: reduce) {
+  
+  {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;}
+  }
+
 /* font family and styling */
 body {
   font-family: "Lilita One", serif;
