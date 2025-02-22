@@ -6,7 +6,7 @@ This project explores a single page layout with animations and clickable links. 
 
 ### Problem Solving and Accessability
 
-This single page business card website solves the problem of having to find contact information and portfolios across different sites/apps. etc. I addresses accessability by adding alt text tags and running colors through Adobe Color. 
+This single page business card website solves the problem of having to find contact information and portfolios across different sites/apps. etc. I addresses accessability by adding alt text tags and running colors through Adobe Color. For this project I really wanted to focus on accessability. I put a major focus on readability as well as color contrast and the ability to reduce motion.
 
 ### Feature, Fonts, Design, Mockups
 
