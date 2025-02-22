@@ -64,12 +64,13 @@ h2 {
 
 /* github styling */
 #github {
-  fill: #f18a72;
-}
-
-#github :hover {
   fill: #d66d5c;
 }
+
+#github:hover {
+  fill: #ee6a5c ;
+}
+
 /* email styling */
 #email {
   fill: #be506a;
