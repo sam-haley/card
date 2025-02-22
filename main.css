@@ -90,7 +90,7 @@ h2 {
 /* pinkhighlight animation */
 #pink-highlight {
   fill: #f8d3dc;
-  animation: pinkAnimate 5s infinite ease-in-out;
+  animation: pinkAnimate 7s infinite ease-in-out;
 }
 
 @keyframes pinkAnimate {
@@ -108,7 +108,7 @@ h2 {
 /* yellowhighlight animations */
 #yellow-highlight {
   fill: #ffdab9;
-  animation: yellowAnimate 5s infinite ease-in-out;
+  animation: yellowAnimate 7s infinite ease-in-out;
 }
 
 @keyframes yellowAnimate {
@@ -126,7 +126,7 @@ h2 {
 /* orangehighlight animations */
 #orange-highlight {
   fill: #ffb8a8;
-  animation: orangeAnimate 5s infinite ease-in-out;
+  animation: orangeAnimate 7s infinite ease-in-out;
 }
 
 @keyframes orangeAnimate {
