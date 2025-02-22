@@ -94,10 +94,10 @@ h2 {
 }
 
 @keyframes pinkAnimate {
-  0% {
+  0%, 100% {
     fill: #f8d3dc;
   }
-  100% {
+  50% {
     fill: #e88ba1;
   }
 }
@@ -112,10 +112,10 @@ h2 {
 }
 
 @keyframes yellowAnimate {
-  0% {
+  0%, 100% {
     fill: #ffdab9;
   }
-  100% {
+  50% {
     fill: #f3b680;
   }
 }
@@ -130,10 +130,10 @@ h2 {
 }
 
 @keyframes orangeAnimate {
-  0% {
+  0%, 100% {
     fill: #ffb8a8;
   }
-  100% {
+  50% {
     fill: #fe8165;
   }
 }
